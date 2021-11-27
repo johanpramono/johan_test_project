@@ -74,7 +74,3 @@ jobs:
         heroku_app_name: "johan-test-project" # Must be unique in Heroku
         heroku_email: ${{secrets.HEROKU_EMAIL}}
     
-    strategy:
-      Secrets:
-        HEROKU_API_KEY: [80a391da-fa9b-4e9d-952c-b588022d50da]
-        HEROKU_EMAIL: [jpramono01@gmail.com]
