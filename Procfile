@@ -1,0 +1,1 @@
+web: pip install . -U && johan_test_project-run
